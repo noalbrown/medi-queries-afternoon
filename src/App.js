@@ -1,26 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor() {
+    super()
+    this.state = {
+
+    }
+  }
+
+
+  render() {
+    return (
+      <div className="App">
+        <header className="Header">
+          <a className="nav-logo" href="#">Start Bootstrap</a>
+          <ul className="nav-menu">
+            <a href="#">SERVICES</a>
+            <a href="#">PORTFOLIO</a>
+            <a href="#">ABOUT</a>
+            <a href="#">TEAM</a>
+            <a href="#">CONTACT</a>
+          </ul>
+          <button className="drop-menu">Menu</button>
+        </header>
+        <section className="section-1">
+          <img src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg" alt="Bootstrap" />
+        </section>
+      </div>
+    );
+  }
 }
 
 export default App;
