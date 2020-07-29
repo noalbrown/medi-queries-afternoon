@@ -139,3 +139,45 @@ table {
     width: 20%
   }
 }
+
+@media (max-width: 411px) {
+  .Header {
+    height: 8%;
+  }
+
+  .nav-logo {
+    text-align: start;
+    width: 40%;
+    margin: 20px 0 0 10px;
+  }
+
+  .drop-menu {
+    height: 50%;
+    width: 20%
+  }
+}
+
+@media (max-width: 375px) {
+  .Header {
+    height: 10%;
+  }
+
+ .drop-menu {
+    height: 60%;
+    width: 20%;
+    margin: 15px 20px;
+  }
+}
+
+@media (max-width: 360px) {
+  .Header {
+    height: 11%;
+  }
+
+ .drop-menu {
+   font-size: 0.9rem;
+    height: 50%;
+    width: 23%;
+    margin: 15px 20px;
+  }
+}
