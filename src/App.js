@@ -40,6 +40,11 @@ class App extends Component {
         </header>
         <section className="section-1">
           <img src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg" alt="Bootstrap" />
+          <div className="section-1-body">
+            <h2>Welcome To Our Studio!</h2>
+            <h1>IT'S NICE TO MEET YOU</h1>
+            <button>TELL ME MORE</button>
+          </div>
         </section>
       </div>
     );
