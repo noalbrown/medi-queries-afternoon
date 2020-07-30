@@ -172,6 +172,10 @@ table {
     height: 40%;
     width: 20%
   }
+  
+  .section-1 > img {
+    height: 475px;
+  }
 }
 
 @media (max-width: 411px) {
