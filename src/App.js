@@ -46,7 +46,7 @@ class App extends Component {
             <button>TELL ME MORE</button>
           </div>
         </section>
-      </div>
+      </div >
     );
   }
 }

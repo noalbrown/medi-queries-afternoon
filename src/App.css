@@ -185,6 +185,7 @@ table {
   }
 
   .drop-menu-items > a {
+    display: initial;
     color:white;
     text-decoration: none;
     padding: 10px;
