@@ -88,6 +88,10 @@ table {
   margin-bottom: 20px;
 }
 
+.drop-menu, .drop-menu-items > a{
+  display: none;
+}
+
 /* Section 1 */
 .section-1 img {
   position: absolute;
@@ -97,6 +101,15 @@ table {
 }
 
 /* Media Queries */
+@media (max-width: 1024px) {
+  .nav-menu {
+    display: flex;
+    justify-content: center;
+  align-items: flex-start;
+  margin-top: 30px;
+  }
+}
+
 @media (max-width: 768px) {
   .Header{
     background-color: rgb(32, 31, 31);
@@ -112,6 +125,7 @@ table {
   }
 
   .drop-menu {
+    display: initial;
     color: white;
     background-color: #fed136;
     width: 13%;
@@ -120,6 +134,26 @@ table {
     position: relative;
     margin: 20px 20px 0 0;
     border-radius: 10%;
+  }
+
+  .drop-menu-items {
+    display: initial;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background: rgb(32, 31, 31);
+    top: 81px;
+    width: 100px;
+  }
+
+  .drop-menu-items > a {
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  .drop-menu-items > a:hover {
+    color: #fed136;
   }
 }
 
